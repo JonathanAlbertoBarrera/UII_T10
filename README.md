@@ -124,3 +124,12 @@ json
 | .env | Variables de entorno reales (no se sube a git) |
 | equipo1Almacen/.env.example | Plantilla de variables de entorno |
 | equipo1Almacen/equipo1Almacen/settings.example.py | Plantilla del settings con todas las configuraciones |
+
+## Documentación con Swagger
+
+El proyecto cuenta con documentación interactiva generada con Swagger, lo que permite probar los endpoints directamente desde el navegador
+
+Una vez levantado el servidor, puedes acceder a:
+---
+Swagger UI: http://localhost:8000/swagger/
+---
