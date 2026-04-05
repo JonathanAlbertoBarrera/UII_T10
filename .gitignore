@@ -1,0 +1,36 @@
+# Byte-compiled / Python stuff
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+venv/
+env/
+
+# Django stuff:
+*.sqlite3
+db.sqlite3
+
+# Logs
+*.log
+
+# Django migrations (si quieres que solo suban los archivos iniciales)
+tienda/migrations/__pycache__/
+tienda/migrations/*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Secret settings
+equipo2Tienda/settings.py
